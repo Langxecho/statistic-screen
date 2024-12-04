@@ -1,0 +1,26 @@
+{
+  "name": "statistics-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.8",
+    "echarts": "^5.5.1",
+    "vue": "^3.5.13",
+    "vuetify": "^3.7.4"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-windicss": "^1.9.4",
+    "vue-tsc": "^2.1.10",
+    "windicss": "^3.5.6"
+  }
+}
